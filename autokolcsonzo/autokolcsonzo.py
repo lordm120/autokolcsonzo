@@ -3,8 +3,8 @@ from berles import Berles
 class Autokolcsonzo:
     def __init__(self, nev):
         self.nev = nev
-        self.autok = []          # autó objektumok listája
-        self.berlesek = []       # Berles objektumok listája
+        self.autok = []          
+        self.berlesek = []       
 
     def auto_hozzaadas(self, auto):
         self.autok.append(auto)
@@ -38,3 +38,7 @@ class Autokolcsonzo:
         if not self.berlesek:
             return "Nincs aktív bérlés."
         return "\n".join(str(berles) for berles in self.berlesek)
+    def autok_listazasa(self):
+        if not self.autok:
+            return "Nincs elérhető autó."
+        return "\n".join(str(auto) for auto in self.autok)
