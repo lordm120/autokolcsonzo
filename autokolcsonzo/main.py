@@ -18,9 +18,9 @@ def main():
     kolcsonzo.auto_hozzaadas(auto4)
 
     # 3 bérlés előre felvétele
-    kolcsonzo.berel("ABC-123", "2025-05-18", "Tóth János")
-    kolcsonzo.berel("XYZ-456", "2025-05-18", "Kovács József")
-    kolcsonzo.berel("DEF-789", "2025-05-19", "Lapos Elemér")
+    kolcsonzo.berel("ADD-329", "2025-05-18", "Tóth János")
+    kolcsonzo.berel("HKS-756", "2025-05-18", "Kovács József")
+    kolcsonzo.berel("LKP-468", "2025-05-19", "Lapos Elemér")
 
     while True:
         print("\n--- AUTÓKÖLCSÖNZŐ ---")
